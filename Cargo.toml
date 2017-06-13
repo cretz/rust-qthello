@@ -1,0 +1,8 @@
+[package]
+name = "qthello"
+version = "0.1.0"
+authors = ["Chad Retz <chad.retz@gmail.com>"]
+
+[dependencies]
+qt_core = "0.2.2"
+qt_widgets = "0.2.2"
