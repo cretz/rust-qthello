@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 
 extern crate qt_widgets;
 extern crate qt_core;
@@ -9,7 +10,7 @@ use qt_core::string::String;
 
 fn main() {
     Application::create_and_exit(|app| {
-        
+
         let mut button = PushButton::new(&String::from("Hello, World"));
         button.show();
 
